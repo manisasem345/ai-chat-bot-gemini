@@ -23,7 +23,8 @@ const App = () => {
       "sejarah", "kerajaan", "majapahit", "sriwijaya", "mataram", "singasari", "kutai", "prabu", "sultan", "pahlawan nasional",
       "bahasa daerah", "aksara jawa", "aksara sunda", "pantun", "syair", "gurindam", "hikayat",
       "kejawen", "animisme", "dinamisme", "dukun", "mantra", "pesugihan", "sesajen", "nyi roro kidul", "tuyul", "genderuwo",
-      "gotong royong", "pancasila", "bhinneka tunggal ika", "halo"
+      "gotong royong", "pancasila", "bhinneka tunggal ika", "halo", "selamat pagi", "selamat siang", "selamat sore", "selamat malam",
+      "terima kasih", "sama-sama", "maaf", "permisi", "salam", "hi", "hey", "hei", "hello"
     ];
   
     return keywords.some((keyword) => message.toLowerCase().includes(keyword));
